@@ -5,3 +5,8 @@ Tadepe is a shitty bitmap font for X11 with ugly glyphs.
 Tadepe was originally Spleen (used by OpenBSD) and shares the same
 license. However, Tadepe has diverged and it is now very different
 from Spleen.
+
+Tadepe is very incomplete and lacks support for lots of Glyphs.
+Glyphs are added by necessity.
+
+Tadepe does not support Turkish and its two i-s.
