@@ -11,7 +11,8 @@ edit:
 once:
 	xset +fp ${HOME}/proj/tadepe
 
-test: tadepe-16n.pcf
-	mkfontdir
-	mkfontscale
-	xset fp rehash
+install: tadepe-16n.pcf
+	install -m 644 tadepe-16n.pcf ${HOME}/theme/fonts
+
+test: install
+	cd ${HOME}/theme/fonts ; mkfontdir ; mkfontscale ; xset fp rehash
