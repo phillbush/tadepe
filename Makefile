@@ -12,7 +12,7 @@ once:
 	xset +fp ${HOME}/proj/tadepe
 
 install: tadepe-16n.pcf
-	install -m 644 tadepe-16n.pcf ${HOME}/theme/fonts
+	install -m 644 tadepe-16n.pcf ${HOME}/lib/fonts
 
 test: install
-	cd ${HOME}/theme/fonts ; mkfontdir ; mkfontscale ; xset fp rehash
+	cd ${HOME}/lib/fonts ; mkfontdir ; mkfontscale ; xset fp rehash
