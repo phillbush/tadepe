@@ -29,6 +29,7 @@ function char(n) {
 	dot(n, 2, 5)
 	fullblank()
 	dot(n, 6, 7)
+	halfblank()
 	printf "ENDCHAR\n"
 }
 
