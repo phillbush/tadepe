@@ -1,18 +1,22 @@
+.SUFFIXES: .pcf .bdf
+
+FONTS = tadepe-16n.pcf tadepe-16b.pcf
+
 all: pcf
 
-pcf: tadepe-16n.pcf
+pcf: ${FONTS}
 
-tadepe-16n.pcf: tadepe-16n.bdf
-	bdftopcf -t -o tadepe-16n.pcf tadepe-16n.bdf
+.bdf.pcf:
+	bdftopcf -t -o $@ $<
 
-edit:
+edit-16n:
 	gbdfed tadepe-16n.bdf
 
-once:
-	xset +fp ${HOME}/proj/tadepe
+edit-16b:
+	gbdfed tadepe-16b.bdf
 
-install: tadepe-16n.pcf
-	install -m 644 tadepe-16n.pcf ${HOME}/lib/fonts
+install: ${FONTS}
+	install -m 644 ${FONTS} ${HOME}/lib/fonts
 
 test: install
 	cd ${HOME}/lib/fonts ; mkfontdir ; mkfontscale ; xset fp rehash
