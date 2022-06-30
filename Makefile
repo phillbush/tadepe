@@ -10,10 +10,10 @@ pcf: ${FONTS}
 	bdftopcf -t -o $@ $<
 
 edit-16n:
-	gbdfed tadepe-16n.bdf
+	gbdfed tadepe-16n.bdf &
 
 edit-16b:
-	gbdfed tadepe-16b.bdf
+	gbdfed tadepe-16b.bdf &
 
 install: ${FONTS}
 	install -m 644 ${FONTS} ${HOME}/lib/fonts
