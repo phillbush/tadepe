@@ -11,6 +11,5 @@ Glyphs are added by necessity.
 
 Tadepe does not support Turkish and its two i-s.
 
-Tadepe currently has only a single font file, for 8x16 glyphs in
-regular (non bold nor italic) font.  I may add other sizes and
-styles later.
+Tadepe currently has font files for 8x16 glyphs in regular and bold
+fonts.  I may add other sizes.
