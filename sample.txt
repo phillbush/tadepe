@@ -1,0 +1,53 @@
+              THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+              the quick brown fox jumps over the lazy dog
+
+          A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+          a b c d e f g h i j k l m n o p q r s t u v w x y z
+          ₐᵃ ᵇ ᶜ ᵈ ᵉ ᶠ ᵍₕʰᵢⁱⱼʲₖᵏₗˡₘᵐₙⁿₒᵒₚᵖ  ᵣʳₛˢₜᵗᵤᵘᵥᵛ ʷₓˣ ʸ ᶻ
+
+            Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω
+            α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς τ υ φ χ ψ ω
+
+                          0 1 2 3 4 5 6 7 8 9
+                          ₀⁰₁¹₂²₃³₄⁴₅⁵₆⁶₇⁷₈⁸₉⁹
+
+             ¡ ! ‽ ¿ ? … . · : ; , _ - ¯ ´ ' ` / | \ § ¶ •
+             @ % & # $ € £ * ~ ^ + ± × ÷ = ≠ ✓ ✕ ® © ™ º ª
+                        () [] {} ⟨⟩ «» <> “” ‘’
+
+                O0  I1  E3  S5  G6  T7  B8  HX  KX  Ili
+
+        “ If men use this, it will create forgetfulness in their
+        minds.  They will cease to exercise memory, because they
+        will rely on what is written and no longer remember from
+        within themselves, but from symbols that are external to
+        themselves.  You invented a tool not for memory, but for
+        remind.
+        -- King Thamus of Egypt on Thoth's invention: writing. ”
+
+                       ⎛ 1 0 1 ⎞   ⎡ x ⎤   ⎧ 3 ⎫
+                       ⎜ 2 1 1 ⎟ × ⎢ y ⎥ = ⎨ 2 ⎬
+                       ⎝ 5 3 2 ⎠   ⎣ z ⎦   ⎩ 1 ⎭
+
+         O(g(n)) ≔ {f(n) | ∃c,n₀:ℕ ∀n:ℕ n≥n₀ → 0≤f(n)≤c·g(n)}.
+
+            ╔═════════╤══════╤════════════╤═══════════════╗
+            ║ COUNTRY │ AREA │ POPULATION │ CONTINENT     ║
+            ╠═════════╪══════╪════════════╪═══════════════╣
+            ║ Brazil  │ 3286 │ 134        │ South America ║
+            ║ Canada  │ 3852 │ 25         │ North America ║
+            ║ China   │ 3705 │ 1032       │ Asia          ║
+            ║ England │ 94   │ 56         │ Europe        ║
+            ║ France  │ 211  │ 55         │ Europe        ║
+            ║ Germany │ 96   │ 61         │ Europe        ║
+            ║ India   │ 1267 │ 746        │ Asia          ║
+            ║ Japan   │ 144  │ 120        │ Asia          ║
+            ║ Mexico  │ 762  │ 78         │ North America ║
+            ║ USA     │ 3615 │ 237        │ North America ║
+            ║ USSR    │ 8649 │ 275        │ Asia          ║
+            ╚═════════╧══════╧════════════╧═══════════════╝
+
+                                ╭─╴⮜──╮
+                                ⮟╳╲╳╲╳╵
+                                ╷╳╱╳╱╳⮝
+                                ╰──⮞╶─╯
