@@ -2,6 +2,10 @@
 
 Tadepe is a 8x16 bitmap font of questionable aesthetics for X11.
 
+Tadepe has the following X11 Logical Font Description (XLFD):
+
+	-misc-tadepe-bold-r-normal--16-150-75-75-C-80-ISO10646-1
+
 Tadepe was originally Spleen (used on OpenBSD) and shares the same
 license. However, Tadepe has diverged and it is now very different
 from Spleen.

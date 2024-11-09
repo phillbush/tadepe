@@ -1,7 +1,7 @@
 .SUFFIXES: .pcf .bdf
 
-FNTS = tadepe-16.pcf
-SRCS = ${PCFS:.pcf=.bdf}
+FNTS = tadepe-16b.pcf
+SRCS = ${FNTS:.pcf=.bdf}
 FONTS_DIR = ${HOME}/.fonts
 
 all: ${FNTS}
@@ -10,7 +10,7 @@ all: ${FNTS}
 	bdftopcf -t -o $@ $<
 
 edit:
-	gbdfed ${FNTS} &
+	gbdfed ${SRCS} &
 
 install: ${FNTS}
 	install -m 644 ${FNTS} ${FONTS_DIR}
