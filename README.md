@@ -10,9 +10,11 @@ Tadepe was originally Spleen (used on OpenBSD) and shares the same
 license. However, Tadepe has diverged and it is now very different
 from Spleen.
 
-![specimen, dark background](./specimen-dark.png)
+![text specimen, dark background](./specimen-dark-text.png)
+![draw specimen, dark background](./specimen-dark-draw.png)
 
-![specimen, light background](./specimen-light.png)
+![text specimen, light background](./specimen-light-text.pn)
+![draw specimen, light background](./specimen-light-draw.png)
 
 Tadepe is very incomplete and lacks support for lots of glyphs.
 Glyphs are added by necessity.
