@@ -13,7 +13,7 @@ from Spleen.
 ![text specimen, dark background](./specimen-dark-text.png)
 ![draw specimen, dark background](./specimen-dark-draw.png)
 
-![text specimen, light background](./specimen-light-text.pn)
+![text specimen, light background](./specimen-light-text.png)
 ![draw specimen, light background](./specimen-light-draw.png)
 
 Tadepe is very incomplete and lacks support for lots of glyphs.
