@@ -26,14 +26,14 @@ resemble cyrillic minuscules, for example).  Lowercase J and I
 do not have tittle (they are undotted).
 
 TODO:
-• Fix diacritics on uppercase letters
-• Fix drawing characters
-• Create 12x24 and 16x32 variants.
-• Create non-monospace variants (use Apple's Chicago as reference?).
-• Create slanted/italic variants.
-• (Re)write normal (non-bold) style (not maintained anymore).
-• Draw more glyphs.
-• Lower cap height from 10px to 9px? (I experimented and liked it)
-• Write script to generate specimen/demo image.
-• Write script to generate pre-composed accented letters from base
+* Fix diacritics on uppercase letters
+* Fix drawing characters
+* Create 12x24 and 16x32 variants.
+* Create non-monospace variants (use Apple's Chicago as reference?).
+* Create slanted/italic variants.
+* (Re)write normal (non-bold) style (not maintained anymore).
+* Draw more glyphs.
+* Lower cap height from 10px to 9px? (I experimented and liked it)
+* Write script to generate specimen/demo image.
+* Write script to generate pre-composed accented letters from base
   letters and combining diacritics.
