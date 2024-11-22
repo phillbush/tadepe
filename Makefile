@@ -1,13 +1,19 @@
 .SUFFIXES: .pcf .bdf
 
-FNTS = tadepe-16b.pcf
-SRCS = ${FNTS:.pcf=.bdf}
+FNTS = tadepe-16b.pcf tadepe-32b.pcf tadepe-64b.pcf
+SRCS = tadepe-16b.bdf
 FONTS_DIR = ${HOME}/.fonts
 
 all: ${FNTS}
 
 .bdf.pcf:
 	bdftopcf -t -o $@ $<
+
+tadepe-32b.bdf: tadepe-16b.bdf
+	awk -f enlarge.awk <tadepe-16b.bdf >tadepe-32b.bdf
+
+tadepe-64b.bdf: tadepe-32b.bdf
+	awk -f enlarge.awk <tadepe-32b.bdf >tadepe-64b.bdf
 
 edit:
 	gbdfed ${SRCS} &

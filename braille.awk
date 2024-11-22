@@ -17,9 +17,9 @@ function dot(a, b, c,    s, t) {
 function char(n) {
 	printf "STARTCHAR braille%d\n", n
 	printf "ENCODING %d\n", (10240 + n)
-	printf "SWIDTH 480 0\n"
+	printf "SWIDTH 500 0\n"
 	printf "DWIDTH 8 0\n"
-	printf "BBX 8 16 0 -4\n"
+	printf "BBX 8 16 0 -3\n"
 	printf "BITMAP\n"
 	halfblank()
 	dot(n, 0, 3)

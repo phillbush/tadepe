@@ -28,7 +28,7 @@ do not have tittle (they are undotted).
 TODO:
 * Fix diacritics on uppercase letters
 * Fix drawing characters
-* Create 12x24 and 16x32 variants.
+* Create 12x24 variants.
 * Create non-monospace variants (use Apple's Chicago as reference?).
 * Create slanted/italic variants.
 * (Re)write normal (non-bold) style (not maintained anymore).
