@@ -33,7 +33,7 @@ TODO:
 * Create slanted/italic variants.
 * (Re)write normal (non-bold) style (not maintained anymore).
 * Draw more glyphs.
-* Lower cap height from 10px to 9px? (I experimented and liked it)
+* Lengthen x-height from 7px to 8px? (I experimented and liked it)
 * Write script to generate specimen/demo image.
 * Write script to generate pre-composed accented letters from base
   letters and combining diacritics.
