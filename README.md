@@ -6,6 +6,12 @@ Tadepe has the following X11 Logical Font Description (XLFD):
 
 	-misc-tadepe-bold-r-normal--16-150-75-75-C-80-ISO10646-1
 
+For FontConfig, Tadepe can be matched with the following FcPattern
+(`pixelsize` is required to force pixel size, for tadepe is not
+scalable):
+
+	Tadepe:pixelsize=16:style=bold
+
 Tadepe was originally Spleen (used on OpenBSD) and shares the same
 license. However, Tadepe has diverged and it is now very different
 from Spleen.
@@ -21,9 +27,9 @@ Glyphs are added by necessity.
 
 Tadepe does not support Turkish and its two i-s.
 
-Lowercase Latin letters do not have ascenders (lower B, T and K
-resemble cyrillic minuscules, for example).  Lowercase J and I
-do not have tittle (they are undotted).
+Lowercase Latin letters do not have ascenders (lowercase B/T/K resemble
+cyrillic minuscules, for example).  Lowercase J/I do not have tittle
+(they are undotted).
 
 TODO:
 * Fix diacritics on uppercase letters
@@ -33,7 +39,6 @@ TODO:
 * Create slanted/italic variants.
 * (Re)write normal (non-bold) style (not maintained anymore).
 * Draw more glyphs.
-* Lengthen x-height from 7px to 8px? (I experimented and liked it)
 * Write script to generate specimen/demo image.
 * Write script to generate pre-composed accented letters from base
   letters and combining diacritics.
