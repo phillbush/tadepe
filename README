@@ -1,19 +1,19 @@
-            ▄▄▄▄▄▄▄  ▄▄▄▄▄  ▄▄▄▄▄    ▄▄▄▄▄  ▄▄ ▄▄▄   ▄▄▄▄▄ 
-              ██         ██ ██  ▀█▄ ██   ██ ██▀  ██ ██   ██
-              ██    ▄█▀▀▀██ ██   ██ ██▀▀▀▀▀ ██   ██ ██▀▀▀▀▀
-              ▀█▄▄  ▀█▄▄▀██ ██▄▄█▀  ▀█▄▄▄█▀ ██▀▄▄█▀ ▀█▄▄▄█▀
-                                            ██
-                                            ▀▀
-TADEPE is a 8x16 bitmap font of questionable aesthetics for X11.
-• ASCII; latin extensions; greek letters; {sub,super}scripts;
-  braille; box drawing characters; math symbols; etc.
-• It is very incomplete and lacks support for lots of glyphs.
-  (Glyphs are added by necessity).
+           ▄▄▄▄▄▄▄  ▄▄▄▄▄  ▄▄▄▄▄    ▄▄▄▄▄  ▄▄ ▄▄▄   ▄▄▄▄▄ 
+             ██         ██ ██  ▀█▄ ██   ██ ██▀  ██ ██   ██
+             ██    ▄█▀▀▀██ ██   ██ ██▀▀▀▀▀ ██   ██ ██▀▀▀▀▀
+             ▀█▄▄  ▀█▄▄▀██ ██▄▄█▀  ▀█▄▄▄█▀ ██▀▄▄█▀ ▀█▄▄▄█▀
+                                           ██
+                                           ▀▀
+TADEPE is shity a 8x16 bitmap font of questionable aesthetics for X11.
+• ASCII; latin extensions; greek letters; {sub,super}scripts; braille;
+  box drawing characters; math symbols; etc.
+• It is very incomplete and lacks most characters and scripts.
+  (glyphs are added by necessity).
 • Lowercase Latin letters do not have the ascender stem
   (lowercase B/T/K resemble cyrillic minuscules, for example).
 • Lowercase J/I do not have tittle (they are undotted).
   (Turkish and its two i-s is not supported).
-• Larger pixel sizes (16x32 and 32x64) are generated from 8x16.
+• Larger pixel sizes (16x32 and 32x64) are enlarged from 8x16.
 
                  (See ./demos/*.png for demonstration.)
 
