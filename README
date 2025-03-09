@@ -19,8 +19,8 @@ TADEPE is shity a 8x16 bitmap font of questionable aesthetics for X11.
 
                                  * * *
 
-BUILD Tadepe with make.  It will generated composite characters; braille
-characters and large font sizes.
+BUILD the font files and all the  composite characters, braille
+characters and larger fonts:
 
 	$ make
 
