@@ -1,0 +1,66 @@
+            ▄▄▄▄▄▄▄  ▄▄▄▄▄  ▄▄▄▄▄    ▄▄▄▄▄  ▄▄ ▄▄▄   ▄▄▄▄▄ 
+              ██         ██ ██  ▀█▄ ██   ██ ██▀  ██ ██   ██
+              ██    ▄█▀▀▀██ ██   ██ ██▀▀▀▀▀ ██   ██ ██▀▀▀▀▀
+              ▀█▄▄  ▀█▄▄▀██ ██▄▄█▀  ▀█▄▄▄█▀ ██▀▄▄█▀ ▀█▄▄▄█▀
+                                            ██
+                                            ▀▀
+TADEPE is a 8x16 bitmap font of questionable aesthetics for X11.
+• ASCII; latin extensions; greek letters; {sub,super}scripts;
+  braille; box drawing characters; math symbols; etc.
+• It is very incomplete and lacks support for lots of glyphs.
+  (Glyphs are added by necessity).
+• Lowercase Latin letters do not have the ascender stem
+  (lowercase B/T/K resemble cyrillic minuscules, for example).
+• Lowercase J/I do not have tittle (they are undotted).
+  (Turkish and its two i-s is not supported).
+• Larger pixel sizes (16x32 and 32x64) are generated from 8x16.
+
+                 (See ./demos/*.png for demonstration.)
+
+                                 * * *
+
+BUILD Tadepe with make.  It will generated composite characters; braille
+characters and large font sizes.
+
+	$ make
+
+INSTALL Tadepe on ~/.fonts; make the font indices; and reload XServer's
+font database:
+
+	$ make install
+
+USE one of those X11 Logical Font Description (XLFD) to match Tadepe:
+
+	$ xlsfonts
+	[…]
+	-misc-tadepe-bold-r-normal--16-160-75-75-c-80-iso10646-1
+	-misc-tadepe-bold-r-normal--32-320-75-75-c-80-iso10646-1
+	-misc-tadepe-bold-r-normal--64-640-75-75-c-80-iso10646-1
+
+USE one of those FontConfig pattern to match Tadepe (`pixelsize` may be
+needed to force pixel size, for tadepe is not scalable):
+
+	$ fc-list
+	[…]
+	Tadepe:pixelsize=16:style=bold
+	Tadepe:pixelsize=32:style=bold
+	Tadepe:pixelsize=64:style=bold
+
+                                 * * *
+
+TODO:
+☠ Fix diacritics on uppercase letters
+☠ Fix drawing characters
+☠ Create 12x24 variants.
+☠ Create non-monospace variants (use Apple's Chicago as reference?).
+☠ Create slanted/italic variants.
+☠ (Re)write normal (non-bold) style (not maintained anymore).
+☠ Draw more glyphs.
+☠ Write script to generate specimen/demo image.
+☡ Write script to generate pre-composed accented letters from base
+  letters and combining diacritics.
+
+                                 * * *
+
+® 2025 LUCAS DE SENA <lucas ~le at~ seninha ~le dot~ org>.
+No rights reserved (dedicated to public domain).
