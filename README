@@ -12,24 +12,24 @@ TADEPE is shity a 8x16 bitmap font of questionable aesthetics for X11.
 • Lowercase Latin letters do not have the ascender stem
   (lowercase B/T/K resemble cyrillic minuscules, for example).
 • Lowercase J/I do not have tittle (they are undotted).
-  (Turkish and its two i-s is not supported).
+  (Turkish and its two i's is not supported).
 • Larger pixel sizes (16x32 and 32x64) are enlarged from 8x16.
 
                  (See ./demos/*.png for demonstration.)
 
                                  * * *
 
-BUILD the font files and all the  composite characters, braille
+BUILD the font files and all the composite characters, braille
 characters and larger fonts:
 
 	$ make
 
-INSTALL Tadepe on ~/.fonts; make the font indices; and reload XServer's
+INSTALL Tadepe on ~/.fonts; make the font index; and reload XServer's
 font database:
 
 	$ make install
 
-USE one of those X11 Logical Font Description (XLFD) to match Tadepe:
+USE one of these X11 Logical Font Description (XLFD) to match Tadepe:
 
 	$ xlsfonts
 	[…]
@@ -37,7 +37,7 @@ USE one of those X11 Logical Font Description (XLFD) to match Tadepe:
 	-misc-tadepe-bold-r-normal--32-320-75-75-c-80-iso10646-1
 	-misc-tadepe-bold-r-normal--64-640-75-75-c-80-iso10646-1
 
-USE one of those FontConfig pattern to match Tadepe (`pixelsize` may be
+USE one of these FontConfig pattern to match Tadepe (“pixelsize” may be
 needed to force pixel size, for tadepe is not scalable):
 
 	$ fc-list
